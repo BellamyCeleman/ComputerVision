@@ -59,7 +59,7 @@ class FaceDetector():
         return img
 
 def main():
-    cap = cv2.VideoCapture("videos/talkin.mp4")
+    cap = cv2.VideoCapture("../../videos/talkin.mp4")
     pTime = 0
     detector = FaceDetector()
 

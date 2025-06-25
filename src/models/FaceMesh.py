@@ -43,7 +43,7 @@ class FaceMesh():
         return faces
 
 def main():
-    cap = cv2.VideoCapture("videos/talkin.mp4")
+    cap = cv2.VideoCapture("../../videos/talkin.mp4")
     detector = FaceMesh()
     pTime = 0
     while True:
